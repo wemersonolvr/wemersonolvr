@@ -1,0 +1,378 @@
+/*importação de fontes externas através do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100;200;300;400;500;600;700;800&family=Teko:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0px;       /*configuração global de padding e margem*/
+    margin: 0px;
+}
+
+/* cabeçalho */
+header{
+background-color: #220e00fa;
+display: flex;
+justify-content: space-between;
+position: sticky;
+top: 0px;
+padding: 0 10px;
+}
+.botaohome{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+ }
+.icone-e-texto{
+   display: flex;
+   flex-direction: row;
+}
+.icone{
+    width: 100px;
+    margin-right: 10px;
+
+}
+#texto{
+    font-family: 'Teko', sans-serif;
+    color: #F2884B;
+    margin-top: 10px;
+    text-decoration: none;
+    box-shadow: 5 10 15 black;
+}
+.nav-buttons{
+    color: #F2884B;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    box-shadow: 5 10 15 black;
+    margin: 0 50px;
+}
+
+.nav-buttons:hover{
+    color: #BF6A39;
+}
+
+.nav-pags{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:740px) {
+    .icone-e-texto{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-pags{
+        display: flex;
+        flex-direction: column;
+    } 
+    #texto{
+        margin-left: 5px;
+    }
+} 
+@media screen and (max-width:395px) {
+    .icone-e-texto{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-pags{
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+        font-size: 13px;
+        justify-content: center;
+    } 
+} 
+.logar{
+    display: flex;
+    flex-direction: row;
+    background-color:#81D959 ;
+    border: solid #81D959 ;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#logindecoration{
+    text-decoration: none;
+    color:#220e00 ;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+.logar:hover{
+    background-color:#F2884B ;
+    color: #220e00;
+    border: solid #F2884B;
+}
+@media screen and (max-width:740px){
+    .logar{
+        display: flex;
+        flex-direction: row;
+        background-color:#81D959 ;
+        border: solid #81D959 ;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 90px;
+        border-radius: 5px;
+
+    }
+}
+@media screen and (max-width:345px){
+    header{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+}
+/*cabeçalho */
+
+/* MAIN */
+.secao1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Anek Tamil', sans-serif;
+    background-color: white;
+    font-weight: 200;
+    font-size: 2em;
+}
+#cor1{
+   color: #361701ee;
+}
+#img-emprestimo{
+    width: 100%;
+    width: 350px;
+}
+
+.titulo1{
+    margin-top: 100px;
+}
+.parte1-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Anek Tamil', sans-serif;
+    background-color: white;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: 10px;
+    
+}
+/* ao chegar em larguras proximas a dispositivos móveis usamos o media screen para diminuir um pouco a letra e aumentar um pouco a sua "grossura" para ficar mais visível para o leitor*/
+@media screen and (max-width:720px){
+    .parte1{
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+    /*removemos a margem no topo para ser mais responsivo*/
+    .titulo1{
+        margin-top: 0px;
+    }
+    /* aqui colocamos um flex-flow em wrap para quebrar as divs e elas se ajeitarem "sozinhas"*/
+    .parte1-2{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    #img-emprestimo{
+        display: none;
+    }
+}
+.break{
+    width: 150px;
+    word-break: keep-all;
+    text-align: center;
+}
+.cor{
+   color: #F2884B;
+}
+#margem2{
+    margin-left: -35px;
+}
+/* ao chegar em larguras proximas a dispositivos móveis usamos o media screen para consertar as maargens dos titulos pois estavam sendo comidas pelas bordas */
+@media screen and (max-width:395px){ 
+    #margem2{
+        margin-left: 0px;
+    }
+}
+#margem{
+    margin-left: 20px;
+}
+
+
+.secao2{
+    background-color:#62a344;
+    font-family: 'Anek Tamil', sans-serif;
+    text-align: justify;
+
+}
+section.secao2 > h1{
+    text-align: center;
+    color: white;
+}
+section.secao2 > p{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+div.video{
+    padding:10px;
+
+}
+iframe{
+    margin-left: 28%;
+}
+@media screen and (max-width:1150px){
+    iframe{
+        margin: 0%;
+        width: 100%;
+    }
+}
+
+.secao3{
+    font-family: 'Anek Tamil', sans-serif;
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 5%;
+}
+
+.secao3>p{
+    color: #220e00;
+    font-size: 1em;
+    margin-top: 0%;
+}
+#cor3{
+    color: #81D959;
+    font-weight: 600;
+}
+
+#emprestimo>div>a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    background-color: #62a344;
+    border-radius: 10px;
+    padding: 5px;
+}
+#emprestimo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 15%;
+    width: 65%;
+}
+.valores{
+    width: 33%;
+    padding: 10px 20px 1.5rem 1.5rem;
+    margin-top: 20px;
+}
+@media screen and (max-width: 845px){
+    #emprestimo>div>a{
+        font-size:1em;
+    }
+    .valores{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 285px){
+    .valores{
+        width: 75%;
+    }
+}
+#emprestimo>div>a:hover{
+    background-color: #3c6429;
+}
+    
+
+.secao4{
+    background-color: #62a344;
+    font-family: 'Anek Tamil', sans-serif;
+    padding-bottom: 35px;
+}
+.txtform{
+    color: white;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    width: 55%;
+    margin-left: 20px;
+}
+.secao4>p{
+    color: white;
+    font-size: 1.3em;
+    margin: 20px;
+    font-weight: 200;
+}
+#separate{
+    margin-bottom: 45px;
+}
+#spanindex{
+    font-weight: bold;
+    color: #220e00;
+}
+.secao4>a{
+    font-size: 1.12em;
+    text-decoration: none;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #220e00;
+}
+.secao4>a:hover{
+    background-color: #220e00ce;
+}
+/* MAIN */
+
+
+
+/*footer */
+#mfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #220e00;
+    color: #ff9100;
+    font-family: 'Teko', sans-serif;
+}
+footer>div{
+    padding: 0 20px;
+}
+footer>div>a{
+    display: flex;
+    flex-direction: column;
+    color: #ff9100;
+}
+
+.img-footer{
+    width: 35px;
+}
+.img-faminas{
+    width: 70px;
+}
+footer>div>p{
+    font-size: 1.1em;
+}
+#wrap{
+    word-break: keep-all;
+    width: 250px;
+}
+@media screen and (max-width:530px){
+    #mfooter{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* footer */
+

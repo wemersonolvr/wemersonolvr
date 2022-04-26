@@ -1,0 +1,248 @@
+/*importação de fontes externas através do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100;200;300;400;500;600;700;800&family=Teko:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0px;       /*configuração global de padding e margem*/
+    margin: 0px;
+}
+
+/* cabeçalho */
+header{
+background-color: #220e00fa;
+display: flex;
+justify-content: space-between;
+position: sticky;
+top: 0px;
+padding: 0 10px;
+}
+.botaohome{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+ }
+.icone-e-texto{
+   display: flex;
+   flex-direction: row;
+}
+.icone{
+    width: 100px;
+    margin-right: 10px;
+
+}
+#texto{
+    font-family: 'Teko', sans-serif;
+    color: #F2884B;
+    margin-top: 10px;
+    text-decoration: none;
+    box-shadow: 5 10 15 black;
+}
+.nav-buttons{
+    color: #F2884B;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    box-shadow: 5 10 15 black;
+    margin: 0 50px;
+}
+
+.nav-buttons:hover{
+    color: #BF6A39;
+}
+
+.nav-pags{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:740px) {
+    .icone-e-texto{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-pags{
+        display: flex;
+        flex-direction: column;
+    } 
+    #texto{
+        margin-left: 5px;
+    }
+} 
+@media screen and (max-width:395px) {
+    .icone-e-texto{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-pags{
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+        font-size: 13px;
+        justify-content: center;
+    } 
+} 
+.logar{
+    display: flex;
+    flex-direction: row;
+    background-color:#81D959 ;
+    border: solid #81D959 ;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#logindecoration{
+    text-decoration: none;
+    color:#220e00 ;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+.logar:hover{
+    background-color:#F2884B ;
+    color: #220e00;
+    border: solid #F2884B;
+}
+@media screen and (max-width:740px){
+    .logar{
+        display: flex;
+        flex-direction: row;
+        background-color:#81D959 ;
+        border: solid #81D959 ;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 90px;
+        border-radius: 5px;
+
+    }
+}
+@media screen and (max-width:345px){
+    header{
+      display: flex;
+      flex-direction: column;
+    }
+}
+/*cabeçalho */
+
+/* main */
+.mainatd{
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 1.5em;
+}
+#tituloatd{
+    background-color: #BF6A39;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.spanatdcolor{
+    color: #81D959;
+    font-weight: bold;
+
+}
+#tituloatd>h1{
+    color: white;
+}
+#tituloatd>p{
+    color: #220e00;
+}
+.atdemprestimo{
+    color: #220e00;
+    font-weight: 400;
+    padding-left: 20px;
+}
+#strongcolor{
+    color: #5c993f;
+}
+.atdtexto{
+    font-weight: 300;
+    padding-left: 20px;
+}
+#atdtexto2{
+    font-weight: 400;
+    padding-left: 20px;
+    color: #5c993f;
+}
+.imgatd{
+    width: 25px;
+}
+.listaatd{
+    margin-left: 20px;
+    list-style: none;
+    border-bottom: solid 1px black;
+}
+.linkatd{
+    color: #2c1200;
+    font-size: 0.9em;
+}
+.lipad{
+    margin-bottom: 20px;
+}
+.limargt{
+    margin-top: 20px;
+}
+.licolor{
+    color: #5c993f;
+}
+#atdh3color{
+    color: #2c1200;
+    padding-left: 20px;
+}
+#atddivdemoji{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+    padding-left: 20px;
+}
+.emojidec{
+    text-decoration: none;
+    margin-left: 10px;
+}
+/*footer */
+#mfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #220e00;
+    color: #ff9100;
+    font-family: 'Teko', sans-serif;
+}
+footer>div{
+    padding: 0 20px;
+}
+footer>div>a{
+    display: flex;
+    flex-direction: column;
+    color: #ff9100;
+}
+
+.img-footer{
+    width: 35px;
+}
+.img-faminas{
+    width: 70px;
+}
+footer>div>p{
+    font-size: 1.1em;
+}
+#wrap{
+    word-break: keep-all;
+    width: 250px;
+}
+@media screen and (max-width:530px){
+    #mfooter{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* footer */
+
+
+

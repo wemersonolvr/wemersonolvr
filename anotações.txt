@@ -1,0 +1,75 @@
+símbolos:
+&lt; // &gt; -> less than//greater than = maior que menor que
+&reg; -> marca registrada
+&copy; -> copyright
+&trade -> trademark
+&euro, yen, cent; -> moedas
+para adiconar um emoji -> &#xcódigo do emoji;
+site de icones: iconarchive.com
+link:favicom -> adicionar favicom
+
+
+<mark> -> marca texto
+<small> -> texto pequeno
+<del> -> texto excluido
+<ins> -> texto inserido
+<sup> -> em cima, elevado
+<sub> -> embaixo
+
+
+código-fonte:
+<code> -> espaça as letras melhor
+<pre> -> arruma o seu código do jeito q vc escreveu
+<q> -> coloca aspas na citação
+<blockquote> -> citação de outro lugar
+<abbr title="">-> mostra o que a abreviação quer dizer
+<bdo> -> inverte a coisas
+
+
+Listas:
+<ol> -> listas ordenadas
+<li> -> lista
+type="a/A", "i/I" -> numeros romanos, 1;
+muda o tipo de lista que vc quer.
+<ul> -> listas não ordenadas
+type="disc", "circle", "square";
+muda a forma dos pontinhos
+<dl>-> lista de definição
+<dt> -> titulo de definição
+<dd> -> descrição
+
+<a target="_blank" rel="external"> -> faz o link abrir uma nova aba no navegador(recomendado para abrir uma página fora do seu site)
+rel="next", rel="prev" -> usado para links internos
+rel="nofollow" -> usado em ads
+../ -> volta uma página
+download=".." type".." -> baixar de links
+
+
+Fotos Flexíveis:
+<picture>
+<source media="(max-width:...)">
+<img>
+</picture>
+Faz com que as fotos se adaptem ao tamanho da tela.
+
+
+
+<audio src controls autoplay> -> reproduzir áudios no site
+text-decoration: none -> tira os sublinhados de um link
+
+
+CSS:
+
+border-radius => faz as bordas ficarem arredondas.
+linear-gradient => gradiente.
+margin => faz com que fique sempre centralizado.
+box-shadow => cria sombras nas bordas.
+text-align => centraliza o texto.
+16px=> tamanho padrão de fontes geralmente, use px ou em.
+16px geralmente = 1em.
+font-weight-> peso da fonte.
+
+Shorthand => font-> font style, font weight, font size, font family. (sem virgulas)
+text-indent: ..px -> identação 
+
+div:hover -> muda a cor quando passa o mouse em cima

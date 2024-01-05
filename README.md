@@ -33,9 +33,8 @@
 
 ## Estatísticas do GitHub
 
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=wemersonolvr&show_icons=true&theme=dark)
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=wemersonolvr&show_icons=true&theme=dark)  ![Estatísticas de Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=wemersonolvr&layout=compact&theme=dark)
 
-![Estatísticas de Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=wemersonolvr&layout=compact&theme=dark)
 
 
 ⚡️ Vamos colaborar e construir algo incrível juntos! ⚡️

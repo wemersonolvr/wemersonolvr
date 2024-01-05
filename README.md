@@ -29,7 +29,7 @@
 
 - 📫 Email: wemerson250oliveira@gmail.com
 - 🔗 LinkedIn: [Seu Perfil no LinkedIn]
-- 🐦 Twitter: [@SeuTwitter]
+- 🐦 Twitter: [@wemersonolvr]
 
 ## Estatísticas do GitHub
 

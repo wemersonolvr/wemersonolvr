@@ -33,6 +33,6 @@
 
 ## Estatísticas do GitHub
 
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=seu_usuario&show_icons=true&theme=dark)
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=wemersonolvr&show_icons=true&theme=dark)
 
 ⚡️ Vamos colaborar e construir algo incrível juntos! ⚡️

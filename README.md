@@ -1,4 +1,4 @@
-# Olá, eu sou [Wemerson]! 👋
+# Olá, eu sou Wemerson! 👋
 
 🎓 Atualmente cursando o último período de Análise e Desenvolvimento de Sistemas pela faculdade Faminas em Muriaé.
 

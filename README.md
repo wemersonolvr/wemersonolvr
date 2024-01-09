@@ -11,9 +11,9 @@
 ## Linguagens e Tecnologias
 
 [![Java](https://img.shields.io/badge/-java-white?logo=java)](https://img.shields.io/badge/-java-white?logo=java)
-[![C](https://img.shields.io/badge/-C-black?logo=C)](https://img.shields.io/badge/-C-black?logo=C)
+[![C](https://img.shields.io/badge/-C-black?logo=C)](https://img.shields.io/badge/-C-blue?logo=C)
 [![HTML5](https://img.shields.io/badge/-HTML5-black?logo=HTML5)](https://img.shields.io/badge/-HTML5-black?logo=HTML5)
-[![CSS3](https://img.shields.io/badge/-CSS3-black?logo=CSS3)](https://img.shields.io/badge/-CSS3-black?logo=CSS3)
+[![CSS3](https://img.shields.io/badge/-CSS3-black?logo=CSS3)](https://img.shields.io/badge/-CSS3-#27a7e2?logo=CSS3)
 [![JavaScript](https://img.shields.io/badge/-javascript-black?logo=javascript)](https://img.shields.io/badge/-javascript-black?logo=javascript)
 [![TypeScript](https://img.shields.io/badge/-typescript-black?logo=typescript)](https://img.shields.io/badge/-typescript-black?logo=typescript)
 [![ReactJs](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat)](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat)

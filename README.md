@@ -4,7 +4,6 @@
 
 ## Sobre mim
 
-- 👨‍💻 Apaixonado por resolver problemas e criar soluções eficientes.
 - 🌱 Estou constantemente aprendendo e evoluindo no desenvolvimento de software.
 - 🚀 Buscando oportunidades para aplicar meus conhecimentos em projetos desafiadores.
 

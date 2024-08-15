@@ -25,11 +25,6 @@
 - 🔗 [Projeto 1](https://github.com/wemersonolvr/GerenciadorDeTarefas):  Um gerenciador de tarefas simples e eficiente em Java para ajudar você a organizar suas atividades diárias. Criado especialmente para uma atividade acadêmica na disciplina de Projeto orientado a objetos(POO) pelo curso de Análise e desenvolvimento de sistemas oferecido pela faculdade Faminas no Campus de Muriaé-MG.
 - 🔗 [Projeto 2](https://github.com/wemersonolvr/Pokedex-em-react): Pokedex da Primeira Geração, uma aplicação React que oferece uma experiência interativa para explorar os Pokémon da primeira geração. Utilizamos a PokeAPI (https://pokeapi.co) para fornecer informações precisas e atualizadas.
 
-## Como Entrar em Contato
-
-- 📫 Email: wemerson250oliveira@gmail.com
-- 🔗 LinkedIn: https://www.linkedin.com/in/wemerson-oliveira-4b295b24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-- 🐦 Twitter: @wemersonolvr
 
 ## Estatísticas do GitHub
 

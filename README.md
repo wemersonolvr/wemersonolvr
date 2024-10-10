@@ -9,7 +9,7 @@
 
 ## Linguagens e Tecnologias
 
-[![Java](https://img.shields.io/badge/-java-white?logo=java)](https://img.shields.io/badge/-java-white?logo=java)
+[![Java](https://img.shields.io/badge/Java-000?style=for-the-badge&logo=java)](https://img.shields.io/badge/Java-000?style=for-the-badge&logo=java)
 [![C](https://img.shields.io/badge/-C-black?logo=C)](https://img.shields.io/badge/-C-blue?logo=C)
 [![HTML5](https://img.shields.io/badge/-HTML5-black?logo=HTML5)](https://img.shields.io/badge/-HTML5-black?logo=HTML5)
 [![CSS3](https://img.shields.io/badge/-CSS3-black?logo=CSS3)](https://img.shields.io/badge/-CSS3-#27a7e2?logo=CSS3)

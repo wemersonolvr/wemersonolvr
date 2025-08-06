@@ -1,6 +1,6 @@
 # Olá, eu me chamo Wemerson! 👋
 
-🎓 Atualmente cursando Análise e Desenvolvimento de Sistemas pela faculdade Faminas em Muriaé.
+🎓 Formado em Análise e Desenvolvimento de Sistemas pela faculdade Faminas em Muriaé.
 
 ## Sobre mim
 
